@@ -1,3 +1,6 @@
+/*This script was made to calculate
+the mass of a liquid in function tis mass*/
+
 #include <iostream>
 #include <math.h>
 #include <string.h>
