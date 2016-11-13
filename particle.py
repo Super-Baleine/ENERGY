@@ -10,7 +10,7 @@ import sys,math
 
 args=len(sys.argv)
 if args != 3:
-	print("There's isn't enough arguments.\
+	print("There isn't enough or too much arguments.\
 	\nYou have to give exactly two arguments.\n\n\
 	The first argument is the speed of the particle\n\
 	And the second argument is the mass of the particle.\
