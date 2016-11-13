@@ -8,6 +8,16 @@
 
 import sys,math
 
+args=len(sys.argv)
+if args != 3:
+	print("There's isn't enough arguments.\
+	\nYou have to give exactly two arguments.\n\n\
+	The first argument is the speed of the particle\n\
+	And the second argument is the mass of the particle.\
+	\nExiting...")
+	sys.exit()
+	pass
+
 def lorentzian_factor(v, c):
 	y=1/(((1-v*2)/(c*2))*0.5)
 	return float(y)
