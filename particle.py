@@ -48,4 +48,7 @@ p=impulsion(y,m,v)
 print("The impulsion is : " + str(p))
 energy=energy_computing(m,c,p)
 print("E²=" + str(energy) + "")
+
+print("Therefore, we have :\n\
+E="+ str(math.sqrt(float(energy))))
 sys.exit()
